@@ -4,7 +4,6 @@ import re
 import datetime
 import subprocess
 import textwrap
-from bs4 import BeautifulSoup
 
 # you can get a giphy key from https://developers.giphy.com/
 # replace the placeholder with the actual key ^^
