@@ -25,7 +25,7 @@ def get_cat_video():
         pass
 
     # this keeps asking the API for a cat until we haven't found an unused cat, keep in mind you have max 100 requests per hour
-    # so you might want to how many times it asks
+    # so you might want to limit how many times it asks
 
     while True:
         url = (
