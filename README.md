@@ -61,7 +61,7 @@ GIPHY_KEY = "YOUR_KEY_HERE"
 fontfile = "./arial.ttf"
 ```
 
-4. (Optional) Configure `tracks.txt` to your liking.
+4. (Optional) Configure `tracks.txt` to your liking. By default this contains a list of royalty-free tracks from https://incompetech.com.
 
 ## Notes
 
