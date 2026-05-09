@@ -106,7 +106,7 @@ def make_video():
         f"fontsize=48:"
         f"fontcolor=black:"
         f"line_spacing=10:"
-        f"fontfile=/home/dani/Documents/arial.ttf"  # change this to your preferred font
+        f"fontfile=./arial.ttf"  # change this to your preferred font
     )
 
     start_time = random.randint(0, 30)
@@ -160,7 +160,7 @@ def make_thumbnail():
         f"fontsize=48:"
         f"fontcolor=black:"
         f"line_spacing=10:"
-        f"fontfile=/home/dani/Documents/arial.ttf"  # change this to your preferred font
+        f"fontfile=./arial.ttf"  # change this to your preferred font
     )
 
     cmd = [
