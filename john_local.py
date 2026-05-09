@@ -59,7 +59,6 @@ def get_cat_video():
 # some of these don't work because i fucked up the formatting :D
 
 def get_random_track():
-
     with open("tracks.txt") as f:
         tracks = [line.strip() for line in f if line.strip()]
 
