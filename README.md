@@ -69,3 +69,4 @@ fontfile = "./arial.ttf"
 - Some music links may fail if they are invalid
 - If many cats have already been used, the script may retry several API requests
 - The script randomly chooses a start time in the music (0–30 seconds)
+- I am not responsible for bricked devices, thermonuclear war, job termination or other unforeseen outcomes resulting from the use of this software.
