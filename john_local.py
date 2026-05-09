@@ -16,7 +16,7 @@ GIPHY_KEY = "YOUR_KEY_HERE"
 def get_cat_video():
     used_cats = set()
 
-    # loads used cat ids from used-cats.txt, doesn't create one so you have to make a blank .txt yourself
+    # loads used cat ids from used-cats.txt
 
     try:
         with open("used-cats.txt") as f:
@@ -83,6 +83,7 @@ def make_video():
     day = today.day
     filename = today.strftime("%d %B %Y") + ".mp4"
 
+    # you could make a function to do this for both the gif and the mp4, or just render the generated mp4 as a gif ¯\_(ツ)_/¯
     if day in [1, 21, 31]:
         suffix = "st"
     elif day in [2, 22]:
